@@ -1,27 +1,54 @@
-# Updated Project Documentation
+# Claude Skills
 
-This document serves as the primary source of information regarding the project. It includes installation instructions, usage guides, and contribution guidelines.
+## Overview
+Claude Skills is a powerful toolkit designed to enhance your productivity by providing automation and assistance features. This repository aims to streamline workflows by integrating various tools effectively.
 
-## Installation
-To install the project, clone the repository:
+## Features
+- **Automation:** Automated tasks to save time and minimize manual input.
+- **Integration:** Compatible with multiple applications and services to expand functionality.
+- **User-friendly Interface:** Designed with the user in mind, ensuring an intuitive experience.
+- **Customizable Options:** Tailor the toolkit to fit individual needs and preferences.
 
-```bash
-git clone https://github.com/disarantidis/Claude-Skills.git
-```
+## Getting Started
+To begin using Claude Skills, follow the steps below:
 
-After cloning, navigate into the project directory and install the required dependencies:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/disarantidis/Claude-Skills.git
+   ```
 
-```bash
-cd Claude-Skills
-npm install
-```
+2. **Install Dependencies:**
+   Make sure to install all necessary packages listed in the requirements file.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Usage
-To start the application, run:
-
-```bash
-npm start
-```
+3. **Run the Application:**
+   Start the application by executing:
+   ```bash
+   python main.py
+   ```
 
 ## Contributing
-We welcome contributions! Please submit a pull request for any changes you would like to propose.
+We welcome contributions! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request detailing your changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+--- 
+
+**Note:** This project is maintained by disarantidis. Any inquiries can be directed to the repository owner.
